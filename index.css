@@ -1,0 +1,287 @@
+body {
+    background-color: #fbfff1;
+}
+
+nav {
+    background-color: #3a86ff;
+    height: 7em;
+    margin-bottom: .5em;
+}
+
+a {
+    list-style: none;
+    float: right;
+    margin-right: 1em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+    color: ivory;
+}
+
+nav ul li {
+    list-style: none;
+    float: right;
+    margin-right: 1em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+    color: ivory;
+
+}
+
+a:hover {
+    color: navy;
+    text-decoration: none;
+}
+
+#jamie {
+    float: left;
+    font-weight: bold;
+    font-size: 50pt;
+    font-family: 'Cherry Cream Soda', cursive;
+    text-shadow: 3px 3px 3px navy
+}
+
+.card {
+    background-color: ivory;
+    margin: .5em;
+    padding: .5em;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor:pointer;
+    margin-top: -3em;
+}
+
+.card-title {
+    color: navy;
+    font-family: 'Cherry Cream Soda', cursive;
+    font-weight: bold;
+}
+
+.card-text {
+    color: navy;
+    font-size: 12pt;
+}
+
+#creative {
+    color: ivory;
+    font-family: 'Cherry Cream Soda', cursive;
+    text-shadow: 3px 3px 3px navy;
+}
+
+p {
+    color: ivory;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18pt;
+}
+
+.lead {
+    font-family: 'Dancing Script', cursive;
+    font-size: 18pt;
+}
+
+.mycreations {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#painting {
+    max-height: 12em;
+    border: 3px solid ivory;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#lantern {
+    max-height: 12em;
+    border-radius: 1em;
+    border: 3px solid ivory;
+    margin: 1em;
+}
+
+#garden {
+    max-height: 12em;
+    border-radius: 1em;
+    border: 3px solid ivory;
+    margin: 1em;
+}
+
+#market {
+    max-height: 12em;
+    border-radius: 1em;
+    border: 3px solid ivory;
+    margin: 1em;
+}
+
+h2 {
+   text-align: center; 
+}
+
+.resumeicons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#linkedin, #resumeicon, #codepen, #github {
+    max-height: 5em;
+}
+
+
+#contactform {
+    background-color: navy;
+    padding: 0em 3em 3em 3em;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: .5em;
+    box-sizing: border-box;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    resize: vertical;
+}
+
+input[placeholder], textarea[placeholder] {
+    text-align: center;
+    font-size: 14pt;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border-radius: .5em;
+    box-sizing: border-box;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    resize: vertical;
+}
+
+#submitbutton {
+    width: 100%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-family: 'Cherry Cream Soda', cursive;
+    font-weight: bold;
+    font-size: 12pt;
+    background-color: ivory;
+    color: navy;
+    margin-top: 1em;
+}
+
+footer {
+    text-align: center;
+    background-color: #3a86ff;
+    color: ivory;
+    font-family: 'Cherry Cream Soda', cursive;
+    text-shadow: 3px 3px 3px navy
+}
+
+
+/*JUMBOTRON BACKGROUNDS*/
+.jumbotron {
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+#create {
+    background-color: #8338ec;
+    text-align: center;
+}
+#portfolio {
+    background-color: #ff006e;
+    text-align: center;
+}
+#resume {
+    background-color: #fb5607;
+    text-align: center;
+}
+#form {
+    background-color: #ffbe0b;
+    text-align: center;
+}
+
+/*LAYOUT*/
+
+#parallax0 {
+    /* The image used */
+    background-image: url(https://images.unsplash.com/photo-1585834406350-744aaeaf491c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1162&q=80);
+
+    /* Set a specific height */
+    min-height: 20em; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .7
+}
+
+#parallax1 {
+    /* The image used */
+    background-image: url(./assets/freespirit.jpg);
+
+    /* Set a specific height */
+    min-height: 20em; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8
+}
+
+#parallax2 {
+    /* The image used */
+    background-image: url(https://images.unsplash.com/photo-1590242846394-b6c8c75722ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+
+    /* Set a specific height */
+    min-height: 20em; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#parallax3 {
+    /* The image used */
+    background-image: url(https://images.unsplash.com/photo-1503485497530-06958022b017?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80);
+
+    /* Set a specific height */
+    min-height: 20em; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#parallax4 {
+    /* The image used */
+    background-image: url(./assets/ranunculus.jpg);
+
+    /* Set a specific height */
+    min-height: 20em; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+    background-attachment: scroll;
+    }
+      }
+

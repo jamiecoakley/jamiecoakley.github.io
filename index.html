@@ -1,27 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!--My CSS-->
   <link rel="stylesheet" href="index.css">
-  <title>Document</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Dancing+Script:wght@700&family=Open+Sans&family=Source+Sans+Pro&display=swap"
+    rel="stylesheet">
+
+  <title>Jamie</title>
 </head>
+
 <body>
+  <nav>
+    <ul>
+      <li id='jamie'>I am Jamie Coakley.</a></li>
+      <li><a href='#form'>Contact Me</a></li>
+      <li><a href='#resume'>Resumé</a></li>
+      <li><a href='#portfolio'>Portfolio</a></li>
+      <li><a href='#create'>About Me</a></li>
+    </ul>
+  </nav>
 
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/jamiemcoakley@gmail.com" method="post">
-    <fieldset id="fs-frm-inputs">
-      <label for="full-name">Full Name</label>
-      <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-      <label for="email-address">Email Address</label>
-      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-      <label for="message">Message</label>
-      <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-    </fieldset>
-    <input type="submit" value="Submit">
-  </form>
 
-<script src="index.js"></script>
-    
+  <div id="parallax0"></div>
+
+  <div class="jumbotron jumbotron-fluid" id="create">
+    <div class="container">
+      <h1 class="display-4" id="creative">I am Creative.</h1>
+      <br>
+      <p class="lead">Channelling my energy into creativity + flowers + bold colors = my happy place.</p>
+      <p>Doodling flowers, painting parody portraits of my boyfriend and our cats, gardening, arranging flowers...
+        creativity is my passion. Any other spare time I get is spent with my animals, organizing something, writing,
+        playing/listening to music, or playing games.</p>
+      <br>
+      <div class='mycreations'>
+        <img src="./assets/South Park.jpg" alt="My South Park parody painting" id='painting'>
+        <img src="./assets/20150612_112531.jpg" alt="Lantern arrangement" id='lantern'>
+        <img src="./assets/2020-06-21 20.00.57.jpg" alt="Garden" id='garden'>
+        <img src="./assets/2019-10-11 14.54.51.jpg" alt="New York City flower market" id='market'>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="parallax1"></div>
+
+  <div class="jumbotron jumbotron-fluid" id="portfolio">
+    <div class="container">
+      <h1 class="display-4" id="creative">I am a Coder.</h1>
+      <br>
+      <p>Coding has opened up a new world for me - creativity meets productivity in the best ways, and I'm absolutely
+        loving it! I'm excited to continue exploring this new world and expressing myself this way. </p>
+      <p>Check out my portfolio:</p>
+
+      <div class="card-group">
+        <div class="card">
+          <img src="https://i.imgur.com/486N9EY.png" class="card-img-top" alt="Rainbow of Pokémon" id="pokemon">
+          <div class="card-body">
+            <a href='https://jcmonapi.web.app/' target="_blank">
+              <h5 class="card-title">Poké-Personality</h5>
+            </a>
+            <p class="card-text">This Gold Badge project features information about the natures of Pokémon from Poké
+              API.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src='./assets/Rabbid.jpg' class="card-img-top" alt="CodePen CSS Creature Project: Raving Rabbid"
+            id="rabbid">
+          <div class="card-body">
+            <a href="https://codepen.io/LadieSavageButts/pen/zYvMvwp" target="_blank">
+              <h5 class="card-title">CSS Raving Rabbid</h5>
+            </a>
+            <p class="card-text">This is my silly CodePen CSS creature project from Gold Badge.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://i.imgur.com/SlUJz1o.jpg" class="card-img-top"
+            alt="Partial screenshot of my Hulu static layout" id="hulu">
+          <div class="card-body">
+            <a href='https://jamiecoakley.github.io/staticLayout/' target="_blank">
+              <h5 class="card-title">Hulu Static Layout</h5>
+            </a>
+            <p class="card-text">This is my static layout project from Gold Badge: my recreation of the Hulu homepage.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/coming soon.png" class="card-img-top" alt="Blue Badge project to come!" id="blue">
+          <div class="card-body">
+            <h5 class="card-title">Blue Badge Project</h5>
+            <p class="card-text">This is where you'll see my Blue Badge project.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/coming soon.png" class="card-img-top" alt="Red Badge project to come!" id="red">
+          <div class="card-body">
+            <h5 class="card-title">Red Badge Project</h5>
+            <p class="card-text">This is where you'll see my Red Badge project.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+
+  <div id="parallax2"></div>
+
+  <div class="jumbotron jumbotron-fluid" id="resume">
+    <div class="container">
+      <h1 class="display-4" id="creative">I am a <s>Jack</s> <i><b>Jamie</b></i> of many trades.</h1>
+      <br>
+      <p>I earned my bachelor's degree at IUPUI General Studies, with minors in psychology, sociology, and
+        economics. In other words, I thoroughly enjoyed my time in school and spent way too much time there; I wanted to
+        learn everything, and I
+        couldn't make up my mind. </p>
+      <p>In college, I fell in love with social and positive psychology. I frequently re-read textbook chapters and take
+        free classes when I can free up the time. I hope to combine the creativity of coding with the psychology behind
+        UX/UI design in a future career.</p>
+      <p>My work experience includes finance, administration, floral design, retail, cakes,
+        bouncy houses... There isn't much I'm not willing to learn!</p>
+      <br>
+      <div class='resumeicons'>
+        <a href="https://www.linkedin.com/in/jamie-coakley-60bb4b167" target="_blank"><img
+            src="./assets/LinkedIn-button-Connect-With-Me.jpg" id="linkedin"></a>
+        <a href="https://codepen.io/LadieSavageButts" target="_blank"><img src="./assets/codepen.png" id='codepen'></a>
+        <a href="https://github.com/jamiecoakley" target="_blank"><img src="./assets/github_PNG83.png" id='github'></a>
+        <a href="./assets/resume.pdf" target="_blank"><img src="./assets/resume.png" id='resumeicon'></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="parallax3"></div>
+
+
+  <div class="jumbotron jumbotron-fluid" id="form">
+    <div class="container">
+      <h1 class="display-4" id="creative">What else would you like to know?</h1>
+      <div id="contactform">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+          action="https://formspree.io/jamiemcoakley@gmail.com" method="post">
+          <fieldset id="fs-frm-inputs">
+            <label for="full-name"></label>
+            <input type="text" name="name" id="full-name" placeholder="Name" required="">
+            <label for="email-address"></label>
+            <input type="email" name="_replyto" id="email-address" placeholder="Email Address" required="">
+            <label for="message"></label>
+            <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </fieldset>
+          <input type="submit" value="Submit" id='submitbutton'>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div id="parallax4"></div>
+
+  <footer>
+    <h2>Thank you for visiting! I look forward to hearing from you!</h2>
+    <hr>
+    Jamie Coakley © 2020
+  </footer>
+
+
+  <!--Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+  <!--My JavaScript-->
+  <script src="index.js"></script>
+
 </body>
+
 </html>
