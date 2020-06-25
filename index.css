@@ -135,6 +135,8 @@ h2 {
 #contactform {
     background-color: navy;
     padding: 0em 3em 3em 3em;
+    border: .5em solid ivory;
+    border-radius: .5em;
 }
 
 input[type=text], textarea {
@@ -179,7 +181,9 @@ footer {
     background-color: #3a86ff;
     color: ivory;
     font-family: 'Cherry Cream Soda', cursive;
-    text-shadow: 3px 3px 3px navy
+    text-shadow: 3px 3px 3px navy;
+    margin-top: .5em;
+    padding-top: .5em;
 }
 
 
